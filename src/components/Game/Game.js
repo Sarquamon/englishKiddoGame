@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import GameForm from "../GameForm/GameForm";
-
+import Level1 from "../Levels/Level1/Level1";
 export class Game extends Component {
   state = {
     username: String
@@ -29,6 +29,7 @@ export class Game extends Component {
           <div className="col-lg-12">
             <h1>Hola desde game!</h1>
             <GameForm getUsername={this.getUsername} ableBtn={this.ableBtn} />
+            <Level1 />
           </div>
         </div>
       </div>

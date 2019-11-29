@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink to="/game" className="nav-link js-scroll-trigger">
-                <FontAwesomeIcon icon="store-alt" size="2x" /> Tienda
+                <FontAwesomeIcon icon="gamepad" size="2x" /> ¡Jugar!
               </NavLink>
             </li>
           </ul>
